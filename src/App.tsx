@@ -146,12 +146,12 @@ const EXPERIENCES = [
     id: 1,
     company: "Department of Social Welfare and Development",
     role: "Internship - Full Stack Developer",
-    period: "February 2026 - Present",
+    period: "March 2026 - Present",
     description: "Developed a web-based IPCRF Management System for the DSWD, handling both front-end and back-end features to streamline employee performance evaluations."
   },
   {
     id: 2,
-    company: "Holy Cross of Davao College",
+    company: "Student Assistant",
     role: "IT Laboratory Assistant",
     period: "August 2022 - June 2026",
     description: "Maintained and organized the IT laboratory, ensuring all computers and equipment were functional, assisted students with technical issues and software troubleshooting, supported faculty during lessons and lab activities, and managed IT resources including minor repairs."

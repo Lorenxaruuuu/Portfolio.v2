@@ -271,10 +271,12 @@ const Navbar = () => {
         "fixed top-0 left-0 bottom-0 z-50 transition-all duration-300 w-20 hidden md:flex flex-col items-center py-8 border-r border-emerald-500/10",
         scrolled ? "matrix-bg border-emerald-500/30" : "bg-black/40 backdrop-blur-sm"
       )}>
-        <div className="flex flex-col items-center justify-between h-full w-full">
+        <div className="flex flex-col items-center justify-center gap-8 h-full w-full">
           <div className="flex flex-col items-center gap-6">
             <a href={PROFILE.socials.github} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Github className="w-5 h-5" /></a>
             <a href={PROFILE.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Linkedin className="w-5 h-5" /></a>
+            <a href={PROFILE.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href={PROFILE.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Facebook className="w-5 h-5" /></a>
             <a href={PROFILE.socials.email} className="text-emerald-600 hover:text-emerald-400 transition-colors"><Mail className="w-5 h-5" /></a>
           </div>
           
@@ -288,11 +290,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-          </div>
-
-          <div className="flex flex-col items-center gap-6">
-            <a href={PROFILE.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Instagram className="w-5 h-5" /></a>
-            <a href={PROFILE.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Facebook className="w-5 h-5" /></a>
           </div>
         </div>
       </nav>

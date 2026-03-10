@@ -36,7 +36,7 @@ const VISUAL_PROJECTS = [
 const SKILLS = [
   { category: "Languages", items: ["C#", "C++", "JavaScript", "Python", "Java", "SQL"] },
   { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "HTML"] },
-  { category: "Backend", items: ["Node.js", "Laravel"] },
+  { category: "Backend", items: ["Node.js", "Laravel", "PHP"] },
   { category: "Tools", items: ["Git", "Vercel", "React Native", ] },
   { category: "Database", items: ["Firebase", "MySQL"] }
 ]

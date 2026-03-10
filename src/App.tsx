@@ -126,7 +126,7 @@ const CERTIFICATIONS = [
   {
     id: 6,
     title: "Certificate of Participation - Networking Competition",
-    issuer: "Competition",
+    issuer: "Holy Cross of Davao College",
     date: "2024",
     image: "https://lh3.googleusercontent.com/d/12QJAwlIRdV2sdIWogIkqiVItF9lNZdkR",
     link: "https://drive.google.com/file/d/12QJAwlIRdV2sdIWogIkqiVItF9lNZdkR/view?usp=drive_link"

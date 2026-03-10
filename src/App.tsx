@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
-import { ExternalLink, Gamepad2, Code2, Layout, Github, Mail, Linkedin, Instagram, Facebook } from 'lucide-react'
+import { ExternalLink, Gamepad2, Code2, Layout, Github, Mail, Linkedin, Instagram, Facebook, Home, User, Briefcase, Award, FolderCode } from 'lucide-react'
 import { cn } from '@/src/lib/utils'
 
 // --- USER GUIDE: DATA CONFIGURATION ---
@@ -9,27 +9,27 @@ import { cn } from '@/src/lib/utils'
 const VISUAL_PROJECTS = [
   {
     id: 1,
-    title: "Project Alpha",
-    description: "A full-stack web application built with Next.js and Tailwind CSS.",
-    image: "https://picsum.photos/seed/project1/800/600",
-    link: "https://example.com/project-alpha", // Put your project link here
-    tags: ["React", "Node.js", "PostgreSQL"]
+    title: "Mood Mirror",
+    description: "A full-stack web application built with Next.js, Firebase, Tailwind CSS and a fine-tuned Flan-T5.",
+    image: "https://lh3.googleusercontent.com/d/1YemRtWovRfIORxX2U4CWlOUu-CTZc3oH",
+    link: "https://mood-mirror-web.vercel.app/",
+    tags: ["Next.js", "Firebase", "Tailwind CSS", "Flan-T5 Model"]
   },
   {
     id: 2,
-    title: "Project Beta",
-    description: "Mobile-first e-commerce platform with real-time inventory tracking.",
-    image: "https://picsum.photos/seed/project2/800/600",
-    link: "https://example.com/project-beta", // Put your project link here
-    tags: ["TypeScript", "Next.js", "Stripe"]
+    title: "Project Alpha",
+    description: "A full-stack web application built with Next.js and Tailwind CSS.",
+    image: "https://picsum.photos/seed/project1/800/600",
+    link: "https://example.com/project-alpha",
+    tags: ["React", "Node.js", "PostgreSQL"]
   },
   {
     id: 3,
-    title: "Project Gamma",
-    description: "Data visualization dashboard for environmental monitoring.",
-    image: "https://picsum.photos/seed/project3/800/600",
-    link: "https://example.com/project-gamma", // Put your project link here
-    tags: ["D3.js", "Firebase", "Tailwind"]
+    title: "Project Beta",
+    description: "Mobile-first e-commerce platform with real-time inventory tracking.",
+    image: "https://picsum.photos/seed/project2/800/600",
+    link: "https://example.com/project-beta",
+    tags: ["TypeScript", "Next.js", "Stripe"]
   }
 ]
 
@@ -257,47 +257,62 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Projects', href: '#portfolio' },
-    { name: 'Certifications', href: '#certifications' },
+    { name: 'Home', href: '#home', icon: <Home className="w-5 h-5" /> },
+    { name: 'About', href: '#about', icon: <User className="w-5 h-5" /> },
+    { name: 'Experience', href: '#experience', icon: <Briefcase className="w-5 h-5" /> },
+    { name: 'Projects', href: '#portfolio', icon: <FolderCode className="w-5 h-5" /> },
+    { name: 'Certs', href: '#certifications', icon: <Award className="w-5 h-5" /> },
   ]
 
   return (
-    <nav className={cn(
-      "fixed top-0 left-0 bottom-0 z-50 transition-all duration-300 w-20 flex flex-col items-center py-8 border-r border-emerald-500/10",
-      scrolled ? "matrix-bg border-emerald-500/30" : "bg-black/40 backdrop-blur-sm"
-    )}>
-      <div className="flex flex-col items-center justify-center gap-8 h-full w-full">
-        <div className="flex flex-col items-center gap-4">
-          <a href={PROFILE.socials.github} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Github className="w-5 h-5" /></a>
-          <a href={PROFILE.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Linkedin className="w-5 h-5" /></a>
-          <a href={PROFILE.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Instagram className="w-5 h-5" /></a>
-          <a href={PROFILE.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Facebook className="w-5 h-5" /></a>
-          <a href={PROFILE.socials.email} className="text-emerald-600 hover:text-emerald-400 transition-colors"><Mail className="w-5 h-5" /></a>
-        </div>
-        
-        <div className="hidden md:flex flex-col items-center gap-4">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="text-emerald-600 hover:text-emerald-400 transition-all vertical-text text-[10px] font-bold uppercase tracking-[0.1em] hover:matrix-glow"
-            >
-              {link.name}
-            </a>
-          ))}
-        </div>
+    <>
+      {/* Desktop Sidebar */}
+      <nav className={cn(
+        "fixed top-0 left-0 bottom-0 z-50 transition-all duration-300 w-20 hidden md:flex flex-col items-center py-8 border-r border-emerald-500/10",
+        scrolled ? "matrix-bg border-emerald-500/30" : "bg-black/40 backdrop-blur-sm"
+      )}>
+        <div className="flex flex-col items-center justify-between h-full w-full">
+          <div className="flex flex-col items-center gap-6">
+            <a href={PROFILE.socials.github} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Github className="w-5 h-5" /></a>
+            <a href={PROFILE.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Linkedin className="w-5 h-5" /></a>
+            <a href={PROFILE.socials.email} className="text-emerald-600 hover:text-emerald-400 transition-colors"><Mail className="w-5 h-5" /></a>
+          </div>
+          
+          <div className="flex flex-col items-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                className="text-emerald-600 hover:text-emerald-400 transition-all vertical-text text-[10px] font-bold uppercase tracking-[0.1em] hover:matrix-glow"
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
 
-        {/* Mobile Menu Button (Simplified) */}
-        <div className="md:hidden absolute bottom-8">
-          <button className="p-2 rounded-lg text-emerald-500">
-            <Layout className="w-6 h-6" />
-          </button>
+          <div className="flex flex-col items-center gap-6">
+            <a href={PROFILE.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href={PROFILE.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-400 transition-colors"><Facebook className="w-5 h-5" /></a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+      {/* Mobile Bottom Nav */}
+      <nav className={cn(
+        "fixed bottom-0 left-0 right-0 z-50 flex md:hidden items-center justify-around px-2 py-3 border-t border-emerald-500/20 matrix-bg backdrop-blur-lg",
+      )}>
+        {navLinks.map((link) => (
+          <a
+            key={link.name}
+            href={link.href}
+            className="flex flex-col items-center gap-1 text-emerald-600 hover:text-emerald-400 transition-all"
+          >
+            {link.icon}
+            <span className="text-[8px] font-bold uppercase tracking-tighter">{link.name}</span>
+          </a>
+        ))}
+      </nav>
+    </>
   )
 }
 
@@ -358,7 +373,7 @@ const MatrixRain = () => {
 }
 
 const PhotoItem = ({ src, index }: { src: string; index: number }) => (
-  <div className="relative h-64 flex-shrink-0 rounded-xl overflow-hidden border border-emerald-500/20 group">
+  <div className="relative h-48 md:h-64 flex-shrink-0 rounded-xl overflow-hidden border border-emerald-500/20 group">
     <img
       src={src}
       alt={`Memory ${index}`}
@@ -437,14 +452,14 @@ export default function App() {
       <MatrixRain />
       <Navbar />
       {/* Hero Section */}
-      <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden border-b border-emerald-500/20">
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden border-b border-emerald-500/20 py-20">
         <div className="container mx-auto px-6 relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="relative w-48 h-48 mx-auto mb-10 rounded-full border-8 border-emerald-500/20 overflow-hidden shadow-[0_0_50px_rgba(16,185,129,0.2)]">
+            <div className="relative w-32 h-32 md:w-48 md:h-48 mx-auto mb-8 md:mb-10 rounded-full border-4 md:border-8 border-emerald-500/20 overflow-hidden shadow-[0_0_50px_rgba(16,185,129,0.2)]">
               <img
                 src={PROFILE.avatar}
                 alt={PROFILE.name}
@@ -452,13 +467,13 @@ export default function App() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold text-emerald-400 mb-4 tracking-tighter matrix-glow">
+            <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold text-emerald-400 mb-4 tracking-tighter matrix-glow">
               {PROFILE.name.toUpperCase()}
             </h1>
-            <p className="text-xl md:text-2xl text-emerald-500 font-bold mb-6 opacity-80">
+            <p className="text-lg md:text-2xl text-emerald-500 font-bold mb-6 opacity-80">
               {`> ${PROFILE.role}`}
             </p>
-            <p className="text-lg text-emerald-700 max-w-2xl mx-auto mb-10 font-mono">
+            <p className="text-sm md:text-lg text-emerald-700 max-w-2xl mx-auto mb-10 font-mono">
               {"// INITIALIZING_SYSTEM_CORE..."}
               <br />
               {"// DEPLOYING_DIGITAL_SOLUTIONS..."}
@@ -560,7 +575,7 @@ export default function App() {
       </section>
 
       {/* Portfolio Section (Combined Projects & Games) */}
-      <section id="portfolio" className="container mx-auto px-6 py-24 bg-emerald-950/5 rounded-[3rem] border border-emerald-500/10">
+      <section id="portfolio" className="container mx-auto px-6 py-12 md:py-24 bg-emerald-950/5 rounded-3xl md:rounded-[3rem] border border-emerald-500/10">
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-emerald-400 mb-2 matrix-glow">_PROJECTS</h2>
           <p className="text-emerald-700 font-mono text-sm">{"// EXECUTING_PROJECT_RETRIEVAL..."}</p>
@@ -601,7 +616,7 @@ export default function App() {
       </section>
 
       {/* Footer / Guide Section */}
-      <footer className="container mx-auto px-6 mt-32 pt-12 border-t border-emerald-500/20">
+      <footer className="container mx-auto px-6 mt-24 md:mt-32 pb-24 md:pb-12 pt-12 border-t border-emerald-500/20">
         <p className="text-center text-emerald-900 text-[10px] mt-12 font-mono uppercase tracking-widest">
           © 2026 Lorence // ALL_RIGHTS_RESERVED
         </p>

@@ -48,7 +48,7 @@ const PROFILE = {
     "Hello! I'm a Web Developer and UI/UX Designer based in Davao City, Philippines. I specialize in building clean, responsive, and engaging web interfaces using tools like React and Tailwind CSS. I'm passionate about crafting designs that are minimalist, intuitive, and user-friendly—creating experiences that look great and feel effortless to use.",
     "Beyond the screen, I'm an avid gamer who spends my free time grinding ranks in Mobile Legends, strategizing in Dota 2, or staying active through basketball and jogging. I am always eager to grow, constantly pushing my limits to stand out and deliver work that makes an impact."
   ],
-  avatar: "https://picsum.photos/seed/lorence/400/400", // Replace with a permanent link (e.g., Imgur, Cloudinary)
+  avatar: "https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/632106532_2105494170301873_2091545469991699783_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeGP0nqNHYXfcYk3SILxxkxFpGDwsWPNytSkYPCxY83K1N5zlg8z7B9boDZHimU-UumQCe-in2OzcInZG_LwHu50&_nc_ohc=ugcvBsScNNUQ7kNvwEnq_ti&_nc_oc=Adldz55dqLcrEnKRiihHLPV9reOFfAV3_y2N0V7NX-qMjlptT8sRk2POC_M_-Xv9VEs&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=kfruiHfFzwBf1MOiDwTQUw&_nc_ss=8&oh=00_AfzpKaTJU2WStXrFc63vHSfq7XFM-7-1JUTBvenGS0rz6g&oe=69B35C07", // Put your profile picture link here
   socials: {
     github: "https://github.com/Lorenxaruuuu",
     linkedin: "https://www.linkedin.com/in/lorenxaruuuu/",
@@ -88,15 +88,15 @@ const CERTIFICATIONS = [
     title: "Getting Started with Full Stack Java Development",
     issuer: "Simplilearn",
     date: "2024",
-    image: "https://drive.google.com/thumbnail?id=1kbLIYmafkj2LkN_CbQWohHChnF-PuXYt&sz=w1000",
-    link: "https://drive.google.com/file/d/1kbLIYmafkj2LkN_CbQWohHChnF-PuXYt/view?usp=drive_link"
+    image: "https://lh3.googleusercontent.com/d/1ragSspM26etww2vtC939vKblw4qbCC-R",
+    link: "https://drive.google.com/file/d/1ragSspM26etww2vtC939vKblw4qbCC-R/view?usp=drive_link"
   },
   {
     id: 2,
     title: "Introduction to SQL",
     issuer: "Simplilearn",
     date: "2024",
-    image: "https://drive.google.com/thumbnail?id=1iucqGLew06nJkCKiMZg4-O_o6slakjPP&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/1iucqGLew06nJkCKiMZg4-O_o6slakjPP",
     link: "https://drive.google.com/file/d/1iucqGLew06nJkCKiMZg4-O_o6slakjPP/view?usp=drive_link"
   },
   {
@@ -104,7 +104,7 @@ const CERTIFICATIONS = [
     title: "Intro to SQL",
     issuer: "Le Wagon",
     date: "2024",
-    image: "https://drive.google.com/thumbnail?id=1rH1TbxsrgNjVC-mw2jlUIoNr8WgAUo4z&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/1rH1TbxsrgNjVC-mw2jlUIoNr8WgAUo4z",
     link: "https://drive.google.com/file/d/1rH1TbxsrgNjVC-mw2jlUIoNr8WgAUo4z/view?usp=drive_link"
   },
   {
@@ -112,7 +112,7 @@ const CERTIFICATIONS = [
     title: "Certficate of Membership - PSITS",
     issuer: "PSITS",
     date: "2023-2024",
-    image: "https://drive.google.com/thumbnail?id=1r_yw2NoWWPjzsMMDSYTcfaIwIeSel8W_&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/1r_yw2NoWWPjzsMMDSYTcfaIwIeSel8W_",
     link: "https://drive.google.com/file/d/1r_yw2NoWWPjzsMMDSYTcfaIwIeSel8W_/view?usp=drive_link"
   },
   {
@@ -120,7 +120,7 @@ const CERTIFICATIONS = [
     title: "Certificate of Participation - MLBB PSITS",
     issuer: "PSITS",
     date: "2024",
-    image: "https://drive.google.com/thumbnail?id=1gOcPIFZFPSD0pvbmHF7UyQw_8d2cfHyd&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/1gOcPIFZFPSD0pvbmHF7UyQw_8d2cfHyd",
     link: "https://drive.google.com/file/d/1gOcPIFZFPSD0pvbmHF7UyQw_8d2cfHyd/view?usp=drive_link"
   },
   {
@@ -128,7 +128,7 @@ const CERTIFICATIONS = [
     title: "Certificate of Participation - Networking Competition",
     issuer: "Competition",
     date: "2024",
-    image: "https://drive.google.com/thumbnail?id=12QJAwlIRdV2sdIWogIkqiVItF9lNZdkR&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/12QJAwlIRdV2sdIWogIkqiVItF9lNZdkR",
     link: "https://drive.google.com/file/d/12QJAwlIRdV2sdIWogIkqiVItF9lNZdkR/view?usp=drive_link"
   },
   {
@@ -136,7 +136,7 @@ const CERTIFICATIONS = [
     title: "Certificate of Completion - Educational Tour",
     issuer: "WATT",
     date: "2025",
-    image: "https://drive.google.com/thumbnail?id=1RDLsLqEkSxsvQ5u83LG4gIaifPqDM37a&sz=w1000",
+    image: "https://lh3.googleusercontent.com/d/1RDLsLqEkSxsvQ5u83LG4gIaifPqDM37a",
     link: "https://drive.google.com/file/d/1RDLsLqEkSxsvQ5u83LG4gIaifPqDM37a/view?usp=drive_link"
   }
 ]
@@ -146,12 +146,12 @@ const EXPERIENCES = [
     id: 1,
     company: "Department of Social Welfare and Development",
     role: "Internship - Full Stack Developer",
-    period: "March 2026 - Present",
+    period: "February 2026 - Present",
     description: "Developed a web-based IPCRF Management System for the DSWD, handling both front-end and back-end features to streamline employee performance evaluations."
   },
   {
     id: 2,
-    company: "Student Assistant",
+    company: "Holy Cross of Davao College",
     role: "IT Laboratory Assistant",
     period: "August 2022 - June 2026",
     description: "Maintained and organized the IT laboratory, ensuring all computers and equipment were functional, assisted students with technical issues and software troubleshooting, supported faculty during lessons and lab activities, and managed IT resources including minor repairs."
@@ -215,41 +215,31 @@ const GameButton = ({ game }: { game: typeof WEB_GAMES[0] }) => (
   </motion.a>
 )
 
-const CertificationCard = ({ cert }: { cert: typeof CERTIFICATIONS[0] }) => {
-  const [imgError, setImgError] = React.useState(false);
-
-  return (
-    <motion.a
-      href={cert.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      whileHover={{ scale: 1.02 }}
-      className="bg-black rounded-xl matrix-border overflow-hidden transition-all block"
-    >
-      <div className="aspect-[4/3] relative border-b border-emerald-500/30 bg-emerald-950/20">
-        <img
-          src={imgError ? `https://picsum.photos/seed/${cert.id}/800/600` : cert.image}
-          alt={cert.title}
-          className="w-full h-full object-cover opacity-70"
-          referrerPolicy="no-referrer"
-          onError={() => setImgError(true)}
-        />
-        {imgError && (
-          <div className="absolute inset-0 flex items-center justify-center text-[10px] text-emerald-500/50 font-mono text-center p-4">
-            [ IMAGE_LOAD_ERROR: FALLBACK_ACTIVE ]
-          </div>
-        )}
+const CertificationCard = ({ cert }: { cert: typeof CERTIFICATIONS[0] }) => (
+  <motion.a
+    href={cert.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.02 }}
+    className="bg-black rounded-xl matrix-border overflow-hidden transition-all block"
+  >
+    <div className="aspect-[4/3] relative border-b border-emerald-500/30">
+      <img
+        src={cert.image}
+        alt={cert.title}
+        className="w-full h-full object-cover opacity-70"
+        referrerPolicy="no-referrer"
+      />
+    </div>
+    <div className="p-4">
+      <h4 className="font-bold text-emerald-400 text-sm mb-1 matrix-glow">{cert.title}</h4>
+      <div className="flex justify-between items-center text-[10px] text-emerald-600 font-mono">
+        <span>{cert.issuer}</span>
+        <span className="text-emerald-500">{cert.date}</span>
       </div>
-      <div className="p-4">
-        <h4 className="font-bold text-emerald-400 text-sm mb-1 matrix-glow">{cert.title}</h4>
-        <div className="flex justify-between items-center text-[10px] text-emerald-600 font-mono">
-          <span>{cert.issuer}</span>
-          <span className="text-emerald-500">{cert.date}</span>
-        </div>
-      </div>
-    </motion.a>
-  );
-}
+    </div>
+  </motion.a>
+)
 
 const SkillBadge = ({ skill }: { skill: string }) => (
   <span className="px-3 py-1.5 bg-black border border-emerald-500/30 text-emerald-500 text-xs font-bold rounded-lg shadow-sm hover:border-emerald-400 hover:text-emerald-400 transition-all cursor-default matrix-glow">
@@ -381,19 +371,19 @@ const PhotoItem = ({ src, index }: { src: string; index: number }) => (
 
 const PhotoMarquee = () => {
   const photos = [
-    "https://picsum.photos/seed/mem1/800/600",
-    "https://picsum.photos/seed/mem2/800/600",
-    "https://picsum.photos/seed/mem3/800/600",
-    "https://picsum.photos/seed/mem4/800/600",
-    "https://picsum.photos/seed/mem5/800/600",
-    "https://picsum.photos/seed/mem6/800/600",
-    "https://picsum.photos/seed/mem7/800/600",
-    "https://picsum.photos/seed/mem8/800/600",
-    "https://picsum.photos/seed/mem9/800/600",
-    "https://picsum.photos/seed/mem10/800/600",
-    "https://picsum.photos/seed/mem11/800/600",
-    "https://picsum.photos/seed/mem12/800/600",
-    "https://picsum.photos/seed/mem13/800/600"
+    "https://scontent.fmnl17-8.fna.fbcdn.net/v/t39.30808-6/648518825_2124289131755710_6272320367779349922_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGcBYBOwJk-WGbsVHfVPFlBeqzWawryOjF6rNZrCvI6MQOUrd1_0nrAu6H_jtYnRoGFnIDVkmT071zPSU7fGtFd&_nc_ohc=oRcnVI9dYMwQ7kNvwEcKW2H&_nc_oc=Adn8t65XB6TCfg9YHf0SsxlAIBGaU5oImJcabUoW3oYMPfOEhieKeHRFWaIDtSqRP5s&_nc_zt=23&_nc_ht=scontent.fmnl17-8.fna&_nc_gid=zxXVNhUafMRCA8UqkXOfVA&_nc_ss=8&oh=00_Afzno9JPU9xqAqIbSqeyNW9S5m_V7mY0BpnoO9HSrq_6Dw&oe=69B5B784",
+    "https://scontent.fmnl17-6.fna.fbcdn.net/v/t39.30808-6/649172636_2124289255089031_4020089138664267079_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeElobn1YvBbgaFTxtX8lVdd8ZFYwROtjIHxkVjBE62Mge7u6BY_7UNgmcTEWQTwhtZv6-LZWhNTS5t9CesgaeIb&_nc_ohc=GN0ShtPM-mYQ7kNvwE24BMV&_nc_oc=AdnsWAy2krcEFz3PVIYJOYV1NSGDlWVyN_0leMN5IwHzLrcDkM-KpEXVQTeT3BlXo_Y&_nc_zt=23&_nc_ht=scontent.fmnl17-6.fna&_nc_gid=mmo9bZI1_cSUlrcHSRDIUg&_nc_ss=8&oh=00_AfwJ0vOu2f-flNbN7CVJ-Ay3eywy-_x-wr4sNYRWzXei9A&oe=69B5AA59",
+    "https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/649826280_2124289435089013_8992679754705504856_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEs0hZxn-0PLI3g3V_9ZEmbGKH3k8ny8EIYofeTyfLwQiGICdwyveG0S4i1mcKU0QXevJGluNerEFNt-4_BBg8l&_nc_ohc=tHwf1u_SNkIQ7kNvwGdFekx&_nc_oc=Adlj4uGWADQqEwspVPG-p8mSzX4DTtOvNIms1IX2dGEq8_UFxKySG0QLWO4035Y5LR0&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=WzJ3eFTFO62StlbCEJnyLQ&_nc_ss=8&oh=00_AfzfaG3POlLfBQops-DgPqMYKVpvju3ryKM7ykbQbV65QQ&oe=69B5C015",
+    "https://scontent.fmnl17-8.fna.fbcdn.net/v/t39.30808-6/648804221_2124289641755659_5892400077324258903_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFZtHhGXuWlBwLGcMyLQmd1ihDph3Ms8iKKEOmHcyzyIhiccz_pXzWMPdFV6pkvo71WrUrritl2H740X8y9PBnM&_nc_ohc=3EkPsZuE51UQ7kNvwFXi43f&_nc_oc=AdnbOjkgN-FEbFt38P2T8FANBuMg8fNJLBVQ2O-DhynyAusA6LQem1Dotymv-KweXvk&_nc_zt=23&_nc_ht=scontent.fmnl17-8.fna&_nc_gid=d3kJHL7BZ3peADSfr-wjng&_nc_ss=8&oh=00_AfwIUbNkF5czQiaCVG809p-QLx5fPiACSVLbUNDnwUDLBw&oe=69B5BBD8",
+    "https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/649718039_2124289731755650_6790858716151818300_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFWfEHthPQM7s0LJ2Y11-npoxipWqNVgjyjGKlao1WCPHn1ayd6HkGtHiSP5_oscFUExOBhAjYQSbHHEAnFcGot&_nc_ohc=R3AW6rmvQoYQ7kNvwEeHii4&_nc_oc=AdmklLfKoGZDOV_KFKPri7Rbe2VUDBgsxzpOVuP3tlqe-8OtSH8W-xKUWCCxZpMp-7k&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=IoeZ0YMPLLPtKsZKbmzjKQ&_nc_ss=8&oh=00_Afx6TSuLcHfn9r-t135UILZCmkVWF9cSaU-Y_SLhyVDcRw&oe=69B58D09",
+    "https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/650093221_2124289858422304_4473711734273886404_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeERQDReAZI5Sf_6J3jWIkysRL6ZQpukie1EvplCm6SJ7cv4BhyQxE67buSxDZ2jGUj5Ah_ZHRQAWmePcBTPuM-N&_nc_ohc=mnOs-rD1fngQ7kNvwEriQK6&_nc_oc=AdkRIGGhVVx2V1TAICz4yHvNJORmowiHxwJAmkgCyvCnAe1XKIOPGfVGIGqSHOVztho&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=ZBEKIujnACQjOkC49ZhvPw&_nc_ss=8&oh=00_Afzay-MQE8MyJnBpynbT2PsXLB2_nt6KQU4hy3EI0ghcUw&oe=69B5935E",
+    "https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/649498393_2124290031755620_6848108888307264582_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeHVt3C1GtmINudb_DNs3uiVmLpXk_7ArkuYuleT_sCuS1Sx1rR9_begpvwcyEDjDIbLt0dMg0wQbO5dN9efwlJb&_nc_ohc=xGqCnU3Eua4Q7kNvwE-h1sN&_nc_oc=AdnD-oVfjhsLsfXO6oAU29knTrr7Bv_PeS175K7jQwUZg5GJjEOi6EWhYfE91mHweqM&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=wXSOKNc7JhlOUxjp-RzC6g&_nc_ss=8&oh=00_Afw_HifQhTcSLNQIg1SrzjxkE2T9C56rPC0p__4NifOswA&oe=69B59ED6",
+    "https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/650066531_2124290228422267_1278186185869420013_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeHkKyer6OXRNooLWmh4e25Q3LCUacORi0PcsJRpw5GLQ04bHKrq3QIfaNcca3tTdUFF_sSG_Ev7W5Qq5fWzagvF&_nc_ohc=7QwC1BabrRcQ7kNvwHJk2CP&_nc_oc=AdlMK8FtZzmVhDLKlUuupNNxPg6YYN-THnyrpHT1osrWBex-y0twQwaIfO8DtD_UdcE&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=IoykWjKf7jizL3pW4CL3Og&_nc_ss=8&oh=00_AfynwZV7qnr3Ph_jJp0nd43bLaAF92AePxFkp8Jyd82G_Q&oe=69B59CBE",
+    "https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/649192257_2124290335088923_4378630920539391882_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeHwNMFtx1yRAHnNuPxed5SCTbffb25jpfhNt99vbmOl-GMlR3ikDdH8usHBxFwyZQAOzo9gsYv7yu9DMe3BEEfk&_nc_ohc=3zHhWZv_rHcQ7kNvwF_r8ik&_nc_oc=AdlfIXNVIUb_ved-0BJ7zR-yMx9y6dQgIfHruE0YieEOcjQrd6q4PyIk_2sDQrRcXAA&_nc_zt=23&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=mwIqkNUoXRgxVGdgj3srWg&_nc_ss=8&oh=00_AfxCPI6DZnp7ca64wkgUArTWeUrjhBlx66HS4e78a-5OHg&oe=69B58E3C",
+    "https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/649475871_2124290488422241_857456635902473886_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEYJmz_MkDI3XZYjCu37uI6srF3l1mN7wGysXeXWY3vAQQ0JKstUsaDn3TYJqvZi6K0VqF1Lh7AgKJRxQTzoDaO&_nc_ohc=ADe4Dax9KKUQ7kNvwHXEsdS&_nc_oc=AdmVyEJSqN9xKP-QvPya8B7kGUW0v4J5F7gC7Y5maRgajLmde9lFvvGynS5xTTgs1kM&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=LRbKuLVSy5stQ2RqJQUNPg&_nc_ss=8&oh=00_AfxcAtIRWVYYcpESjOMcsQ_dHc1EmXBN1cEOiMgOgc0-LA&oe=69B58E53",
+    "https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/649876943_2124290785088878_2839220801949268542_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEA1h7JT5YQZJX30JYkF-8ZWknMshHFPs5aScyyEcU-zqzJJBwGKz0gbUjIlms_e0ZMfQ3Ez1L3sGNg_yK4V20y&_nc_ohc=mD7WqzjtkcMQ7kNvwHJHw4w&_nc_oc=Admlddqi4l4Gl69QykpPGkNuXncwh-MWx42ijtpOKH1fQOoQR7MfIEm3vWtwclDoD-E&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=rNh_BFb40HzNq6uDz1gKqg&_nc_ss=8&oh=00_AfyO6Kn8WKMWZ1rLE2bT4pC-g1rwItpvGJDjPjBFL6QkqA&oe=69B58A9B",
+    "https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/650100002_2124290995088857_6323579272718383510_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEbD4bJ0VpHaIorFM2e5J5V0LKyQA9RgmPQsrJAD1GCY11mXCR9tN2lLjDZBSjNY-7vTKXNn9a1WQIzbWhXFYY4&_nc_ohc=0L3oduz7VssQ7kNvwHNm-VU&_nc_oc=AdknSKTg5-DjdiSMXcWDcNdeugIacsHoVSS1DN6WUMiy63eclSk79x0eL8GiR_H0UZY&_nc_zt=23&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=CGA4zn_gl7NpTDlHg--drQ&_nc_ss=8&oh=00_Afzwm_uMVTx2ohwKB0UyfGnZMBM3Vf7_WEce1mXwIva4OA&oe=69B5AC86",
+    "https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/650021124_2124291068422183_678779623470728537_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGRS7rmqmMXIikQTH7t6DM9um7-WbzvfJe6bv5ZvO98l1JcZDsBy0JqlZwOtmKEYG9inRhN1RPy7WG1SNdYU89T&_nc_ohc=7XegkSde27oQ7kNvwFZm06C&_nc_oc=AdnVOnJ-WpBOTtOpJEh1z7f5XrdkRWPA_SvhLuFW2kNx0icdR4UI7pgV-h5r-dilkT8&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=xkTQpIHV2rYfeuJZvfds-A&_nc_ss=8&oh=00_AfwDuYfRFALupTDhw99VqeeWE-PEe-wRrhsmPiyqV8npSQ&oe=69B5A827"
   ];
 
   const row1 = photos;

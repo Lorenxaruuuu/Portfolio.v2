@@ -17,11 +17,11 @@ const VISUAL_PROJECTS = [
   },
   {
     id: 2,
-    title: "Project Alpha",
-    description: "A full-stack web application built with Next.js and Tailwind CSS.",
-    image: "https://picsum.photos/seed/project1/800/600",
-    link: "https://example.com/project-alpha",
-    tags: ["React", "Node.js", "PostgreSQL"]
+    title: "CatAdopt",
+    description: "A cat adoption platform built with React Native, TypeScript, and CSS",
+    image: "https://lh3.googleusercontent.com/d/13lWB9iyV5jO76Cl7f14ROf1sctQYA7CT",
+    link: "https://cat-adopt-web.vercel.app/",
+    tags: ["React Native", "CSS", "Snack Expo", "TypeScript"]
   },
   {
     id: 3,

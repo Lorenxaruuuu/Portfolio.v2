@@ -25,11 +25,11 @@ const VISUAL_PROJECTS = [
   },
   {
     id: 3,
-    title: "Project Beta",
-    description: "Mobile-first e-commerce platform with real-time inventory tracking.",
-    image: "https://picsum.photos/seed/project2/800/600",
-    link: "https://example.com/project-beta",
-    tags: ["TypeScript", "Next.js", "Stripe"]
+    title: "Kanya-Kanya",
+    description: "A web application for splitting bills",
+    image: "https://lh3.googleusercontent.com/d/1u6qQrsQjEOjh_if8pw7u26Fg9dMnRjZy",
+    link: "https://kkb-app-one.vercel.app/",
+    tags: ["Next.js", "React", "Tailwind CSS", "Motion", "TypeScript"]
   }
 ]
 

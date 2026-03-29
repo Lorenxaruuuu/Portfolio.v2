@@ -152,7 +152,7 @@ const EXPERIENCES = [
   {
     id: 2,
     company: "Holy Cross of Davao College",
-    role: "IT Laboratory Assistant",
+    role: "IT Support",
     period: "August 2022 - June 2026",
     description: "Maintained and organized the IT laboratory, ensuring all computers and equipment were functional, assisted students with technical issues and software troubleshooting, supported faculty during lessons and lab activities, and managed IT resources including minor repairs."
   }

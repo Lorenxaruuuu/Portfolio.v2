@@ -28,7 +28,7 @@ const VISUAL_PROJECTS = [
     title: "Kanya-Kanya",
     description: "A web application for splitting bills",
     image: "https://lh3.googleusercontent.com/d/1u6qQrsQjEOjh_if8pw7u26Fg9dMnRjZy",
-    link: "https://kkb-app-one.vercel.app/",
+    link: "https://kkb-v1.vercel.app/",
     tags: ["Next.js", "React", "Tailwind CSS", "Motion", "TypeScript"]
   }
 ]

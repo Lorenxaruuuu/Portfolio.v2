@@ -61,25 +61,18 @@ const PROFILE = {
 const WEB_GAMES = [
   {
     id: 1,
-    title: "Space Invaders Remake",
-    description: "A classic arcade game rebuilt using HTML5 Canvas and JavaScript.",
-    link: "https://example.com/game-1", // Put your game link here
+    title: "ChronosCheckers",
+    description: "ChronosCheckers is a twist on classic checkers where a moved piece cannot move again until two other pieces have been moved. Plan carefully and manage time to win.",
+    link: "https://lorence-checkers.vercel.app/", // Put your game link here
     icon: <Gamepad2 className="w-5 h-5" />
   },
   {
     id: 2,
-    title: "Logic Puzzle Solver",
-    description: "An interactive web game that challenges your algorithmic thinking.",
-    link: "https://example.com/game-2", // Put your game link here
+    title: "Void Breach",
+    description: "Chronos Tower Defense is a fast-paced strategy game where you defend your base against endless enemy waves using powerful towers, smart placement, and tactical upgrades. Survive the timeline and stop the invasion before time runs out.",
+    link: "https://lorence-towerdef.vercel.app/", // Put your game link here
     icon: <Code2 className="w-5 h-5" />
   },
-  {
-    id: 3,
-    title: "UI Playground",
-    description: "A collection of interactive UI components and experiments.",
-    link: "https://example.com/game-3", // Put your game link here
-    icon: <Layout className="w-5 h-5" />
-  }
 ]
 
 const CERTIFICATIONS = [
@@ -138,7 +131,31 @@ const CERTIFICATIONS = [
     date: "2025",
     image: "https://lh3.googleusercontent.com/d/1RDLsLqEkSxsvQ5u83LG4gIaifPqDM37a",
     link: "https://drive.google.com/file/d/1RDLsLqEkSxsvQ5u83LG4gIaifPqDM37a/view?usp=drive_link"
-  }
+  },
+    {
+    id: 8,
+    title: "Web Development for Beginners",
+    issuer: "Simplilearn",
+    date: "2026",
+    image: "https://lh3.googleusercontent.com/d/1S1HPsaTPmxoTH0Ec76iUkXemtVBQUgrn",
+    link: "https://drive.google.com/file/d/1S1HPsaTPmxoTH0Ec76iUkXemtVBQUgrn/view?usp=sharing"
+  },
+      {
+    id: 9,
+    title: "ReactJS for Beginners",
+    issuer: "Simplilearn",
+    date: "2026",
+    image: "https://lh3.googleusercontent.com/d/1RnEc9zs5VUJpT2oisqWfwtyKWk7YFYjb",
+    link: "https://drive.google.com/file/d/1RnEc9zs5VUJpT2oisqWfwtyKWk7YFYjb/view?usp=sharing"
+  },
+  {
+    id: 10,
+    title: "Introduction to TypeScript",
+    issuer: "Simplilearn",
+    date: "2026",
+    image: "https://lh3.googleusercontent.com/d/1rSucnO47CuyIZvGt8ATfV3cbpLcur3oI",
+    link: "https://drive.google.com/file/d/1rSucnO47CuyIZvGt8ATfV3cbpLcur3oI/view?usp=sharing"
+  },
 ]
 
 const EXPERIENCES = [

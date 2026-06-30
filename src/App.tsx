@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
-import { ExternalLink, Gamepad2, Code2, Layout, Github, Mail, Linkedin, Instagram, Facebook, Home, User, Briefcase, Award, FolderCode } from 'lucide-react'
+import { ExternalLink, Gamepad2, Code2, Layout, Github, Mail, Linkedin, Instagram, Facebook, Home, User, Briefcase, Award, FolderCode, FileText } from 'lucide-react'
 import { cn } from '@/src/lib/utils'
 
 // --- USER GUIDE: DATA CONFIGURATION ---
@@ -49,10 +49,11 @@ const PROFILE = {
     "Beyond the screen, I'm an avid gamer who spends my free time grinding ranks in Mobile Legends, strategizing in Dota 2, or staying active through basketball and jogging. I am always eager to grow, constantly pushing my limits to stand out and deliver work that makes an impact."
   ],
   avatar: "https://lh3.googleusercontent.com/d/1znOkwee_Wm0ATWHYAB4HQQ_1AUyk3I2Z", // Put your profile picture link here
+  cvLink: "https://drive.google.com/file/d/1jHA8e9t7Ug6ahoXFPne5I7C42ygH7HW0/view?usp=sharing", // Put your Google Drive CV link or shared link here (e.g., https://drive.google.com/...)
   socials: {
     github: "https://github.com/Lorenxaruuuu",
     linkedin: "https://www.linkedin.com/in/lorenxaruuuu/",
-    instagram: "https://www.instagram.com/lorenxaruuuu/",
+    instagram: "https://www.instagram.com/lorenxaruuu/",
     facebook: "https://www.facebook.com/lorenxaruuu",
     email: "mailto:lorencemaranga@gmail.com"
   }
@@ -155,6 +156,14 @@ const CERTIFICATIONS = [
     date: "2026",
     image: "https://lh3.googleusercontent.com/d/1rSucnO47CuyIZvGt8ATfV3cbpLcur3oI",
     link: "https://drive.google.com/file/d/1rSucnO47CuyIZvGt8ATfV3cbpLcur3oI/view?usp=sharing"
+  },
+  {
+    id: 11,
+    title: "On-the-Job Training Certification",
+    issuer: "Department of Social Welfare and Development",
+    date: "2026",
+    image: "https://lh3.googleusercontent.com/d/1-55yPkbKTuvXGy9owbalYN7wiUQh9zMb",
+    link: "https://drive.google.com/file/d/1-55yPkbKTuvXGy9owbalYN7wiUQh9zMb/view?usp=sharing"
   },
 ]
 
@@ -492,6 +501,18 @@ export default function App() {
               <br />
               {"// DEPLOYING_DIGITAL_SOLUTIONS..."}
             </p>
+            <div className="flex justify-center mb-8">
+              <motion.a
+                href={PROFILE.cvLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-950/80 hover:bg-emerald-500/20 text-emerald-400 hover:text-emerald-300 font-bold rounded-lg border border-emerald-500/40 hover:border-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all uppercase tracking-wider text-xs md:text-sm font-mono cursor-pointer"
+              >
+                <FileText className="w-4 h-4" /> [VIEW_CV]
+              </motion.a>
+            </div>
           </motion.div>
         </div>
 

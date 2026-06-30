@@ -52,7 +52,7 @@ const PROFILE = {
   cvLink: "https://drive.google.com/file/d/1jHA8e9t7Ug6ahoXFPne5I7C42ygH7HW0/view?usp=sharing", // Put your Google Drive CV link or shared link here (e.g., https://drive.google.com/...)
   socials: {
     github: "https://github.com/Lorenxaruuuu",
-    linkedin: "https://www.linkedin.com/in/lorenxaruuuu/",
+    linkedin: "https://www.linkedin.com/in/lorenxaruuu/",
     instagram: "https://www.instagram.com/lorenxaruuu/",
     facebook: "https://www.facebook.com/lorenxaruuu",
     email: "mailto:lorencemaranga@gmail.com"

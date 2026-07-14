@@ -165,6 +165,14 @@ const CERTIFICATIONS = [
     image: "https://lh3.googleusercontent.com/d/1-55yPkbKTuvXGy9owbalYN7wiUQh9zMb",
     link: "https://drive.google.com/file/d/1-55yPkbKTuvXGy9owbalYN7wiUQh9zMb/view?usp=sharing"
   },
+  {
+    id: 12,
+    title: "DMU SIM Certification",
+    issuer: "DMU SIM",
+    date: "2026",
+    image: "https://lh3.googleusercontent.com/d/1ZwzzuYtou4vjaI0Z3o-SrG1kHivJzuxG",
+    link: "https://drive.google.com/file/d/1ZwzzuYtou4vjaI0Z3o-SrG1kHivJzuxG/view?usp=sharing"
+  },
 ]
 
 const EXPERIENCES = [

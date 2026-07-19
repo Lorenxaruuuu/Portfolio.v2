@@ -43,9 +43,9 @@ const SKILLS = [
 
 const PROFILE = {
   name: "Lorence Maranga",
-  role: "Web Developer and UI/UX designer",
+  role: "Web Developer and IT Support",
   bio: [
-    "Hello! I'm a Web Developer and UI/UX Designer based in Davao City, Philippines. I specialize in building clean, responsive, and engaging web interfaces using tools like React and Tailwind CSS. I'm passionate about crafting designs that are minimalist, intuitive, and user-friendly—creating experiences that look great and feel effortless to use.",
+    "Hello! I'm a Web Developer and IT Support based in Davao City, Philippines. I specialize in building clean, responsive, and engaging web interfaces using tools like React and Tailwind CSS. I'm passionate about crafting designs that are minimalist, intuitive, and user-friendly—creating experiences that look great and feel effortless to use.",
     "Beyond the screen, I'm an avid gamer who spends my free time grinding ranks in Mobile Legends, strategizing in Dota 2, or staying active through basketball and jogging. I am always eager to grow, constantly pushing my limits to stand out and deliver work that makes an impact."
   ],
   avatar: "https://lh3.googleusercontent.com/d/1znOkwee_Wm0ATWHYAB4HQQ_1AUyk3I2Z", // Put your profile picture link here

@@ -49,7 +49,7 @@ const PROFILE = {
     "Beyond the screen, I'm an avid gamer who spends my free time grinding ranks in Mobile Legends, strategizing in Dota 2, or staying active through basketball and jogging. I am always eager to grow, constantly pushing my limits to stand out and deliver work that makes an impact."
   ],
   avatar: "https://lh3.googleusercontent.com/d/1znOkwee_Wm0ATWHYAB4HQQ_1AUyk3I2Z", // Put your profile picture link here
-  cvLink: "https://drive.google.com/file/d/1jHA8e9t7Ug6ahoXFPne5I7C42ygH7HW0/view?usp=sharing", // Put your Google Drive CV link or shared link here (e.g., https://drive.google.com/...)
+  cvLink: "https://drive.google.com/file/d/1cs1fw9ITtB2ndgO6c0wa2Yp1WqLYOtJq/view?usp=sharing", // Put your Google Drive CV link or shared link here (e.g., https://drive.google.com/...)
   socials: {
     github: "https://github.com/Lorenxaruuuu",
     linkedin: "https://www.linkedin.com/in/lorenxaruuu/",

@@ -30,6 +30,14 @@ const VISUAL_PROJECTS = [
     image: "https://lh3.googleusercontent.com/d/1u6qQrsQjEOjh_if8pw7u26Fg9dMnRjZy",
     link: "https://kkb-v1.vercel.app/",
     tags: ["Next.js", "React", "Tailwind CSS", "Motion", "TypeScript"]
+  },
+  {
+    id: 4,
+    title: "IPCRF Management System",
+    description: "A web platform and landing page portal for DSWD services and performance management.",
+    image: "https://lh3.googleusercontent.com/d/1VpwpoXwH2bqm653TrVjwzFITvrI5GEOZ",
+    link: "https://dswd-landing.vercel.app/",
+    tags: ["React", "Tailwind CSS", "TypeScript", "Vercel"]
   }
 ]
 
@@ -180,11 +188,18 @@ const EXPERIENCES = [
     id: 1,
     company: "Department of Social Welfare and Development",
     role: "Internship - Full Stack Developer",
-    period: "February 2026 - Present",
+    period: "February 2026 - June 2026",
     description: "Developed a web-based IPCRF Management System for the DSWD, handling both front-end and back-end features to streamline employee performance evaluations."
   },
   {
     id: 2,
+    company: "Holy Cross of Davao College",
+    role: "IT Support",
+    period: "August 2025",
+    description: "Assisted in the installation and deployment of the VDRAGON 5000 Full Mission Bridge Simulator, VDRAGON ECDIS 5000 Radar/ECDIS Simulator, and SmartLoad Cargo Handling Simulator at the BSMT Laboratory."
+  },
+  {
+    id: 3,
     company: "Holy Cross of Davao College",
     role: "IT Support",
     period: "August 2022 - June 2026",

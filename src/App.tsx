@@ -42,10 +42,10 @@ const VISUAL_PROJECTS = [
 ]
 
 const SKILLS = [
-  { category: "Languages", items: ["C#", "C++", "JavaScript", "Python", "Java", "SQL"] },
-  { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "HTML"] },
+  { category: "Languages", items: ["C#", "C++", "JavaScript", "TypeScript", "Python", "Java", "SQL"] },
+  { category: "Frontend", items: ["Next.js", "React", "Tailwind CSS", "HTML"] },
   { category: "Backend", items: ["Node.js", "Laravel", "PHP"] },
-  { category: "Tools", items: ["Git", "Vercel", "React Native", ] },
+  { category: "Tools", items: ["Git", "Vercel", "React Native"] },
   { category: "Database", items: ["Firebase", "MySQL"] }
 ]
 
@@ -53,11 +53,12 @@ const PROFILE = {
   name: "Lorence Maranga",
   role: "Web Developer and IT Support",
   bio: [
-    "Hello! I'm a Web Developer and IT Support based in Davao City, Philippines. I specialize in building clean, responsive, and engaging web interfaces using tools like React and Tailwind CSS. I'm passionate about crafting designs that are minimalist, intuitive, and user-friendly—creating experiences that look great and feel effortless to use.",
+    "Hello! I'm a Web Developer and IT Support based in Davao City, Philippines. I specialize in building clean, responsive, and engaging web interfaces using tools like Next.js, React, and Tailwind CSS. I'm passionate about crafting designs that are minimalist, intuitive, and user-friendly—creating experiences that look great and feel effortless to use.",
     "Beyond the screen, I'm an avid gamer who spends my free time grinding ranks in Mobile Legends, strategizing in Dota 2, or staying active through basketball and jogging. I am always eager to grow, constantly pushing my limits to stand out and deliver work that makes an impact."
   ],
   avatar: "https://lh3.googleusercontent.com/d/1znOkwee_Wm0ATWHYAB4HQQ_1AUyk3I2Z", // Put your profile picture link here
-  cvLink: "https://drive.google.com/file/d/1cs1fw9ITtB2ndgO6c0wa2Yp1WqLYOtJq/view?usp=sharing", // Put your Google Drive CV link or shared link here (e.g., https://drive.google.com/...)
+  resumeLink: "/assets/aistudio/Lorence_Maranga_Resume_new_68db427e.pdf",
+  cvLink: "/assets/aistudio/Lorence_Maranga_Resume_new_68db427e.pdf",
   socials: {
     github: "https://github.com/Lorenxaruuuu",
     linkedin: "https://www.linkedin.com/in/lorenxaruuu/",
@@ -526,14 +527,14 @@ export default function App() {
             </p>
             <div className="flex justify-center mb-8">
               <motion.a
-                href={PROFILE.cvLink}
+                href={PROFILE.resumeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-950/80 hover:bg-emerald-500/20 text-emerald-400 hover:text-emerald-300 font-bold rounded-lg border border-emerald-500/40 hover:border-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all uppercase tracking-wider text-xs md:text-sm font-mono cursor-pointer"
               >
-                <FileText className="w-4 h-4" /> [VIEW_CV]
+                <FileText className="w-4 h-4" /> [VIEW_RESUME]
               </motion.a>
             </div>
           </motion.div>
